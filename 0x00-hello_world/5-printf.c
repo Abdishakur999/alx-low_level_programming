@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
- * Description: use printf
+ * main - prints a string
  * Return: 0
  */
 
