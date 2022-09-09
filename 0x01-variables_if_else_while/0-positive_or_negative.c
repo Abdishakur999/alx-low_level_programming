@@ -2,17 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
 /**
-  *main - prints whether the variable n is positive or negative
-  *return: 1 if the number is positive , 0 otherwise
-  */
+ * main - Entry point
+ * Description: prints if a number is positive or negative.
+ * Return: Always 0 (success/correct)
+*/
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
 if (n > 0)
 {
 printf("%d is positive\n", n);
